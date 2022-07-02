@@ -58,4 +58,8 @@ header button i {
     font-size: 1.7rem;
     vertical-align: middle;
 }
-
+.contantbox_kms{
+    margin: 0 auto;
+    padding: 100px;
+    align-content: center;
+}
