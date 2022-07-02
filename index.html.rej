@@ -1,0 +1,12 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -1,8 +1,9 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
++    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"> <!--아이콘 링크-->
+     <meta charset="UTF-8">
+-    <title>Document</title>
++    <title>Chanel</title>
+     <link type="text/css" href="css/jms.css" rel="stylesheet">
+     <link type="text/css" href="css/kmh.css" rel="stylesheet">
+     <link type="text/css" href="css/moon.css" rel="stylesheet">
