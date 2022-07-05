@@ -13,7 +13,7 @@ body {
 a {
     text-decoration: none;
 } */
-.header_kms {
+.header_kmh {
     border-top: 7px solid #000000;
     position: fixed;
     top: 0;
@@ -29,7 +29,7 @@ header > section {
     padding: 10px;
     border-bottom: 1px solid #ececec;
 }
-header .logo_kms {
+header .logo_kmh {
     display: flex;
     align-items: center;
 }
@@ -58,11 +58,14 @@ header button i {
     font-size: 1.7rem;
     vertical-align: middle;
 }
-.contantbox_kms{
+.contantbox_kmh{
     margin: 0 auto;
     padding: 100px;
     align-content: center;
 }
-.contantbox_kms h1{
+.contantbox_kmh h1{
     text-align: center;
+}
+.kategorie_kmh{
+    display: flex;
 }
