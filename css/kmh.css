@@ -1,0 +1,65 @@
+/* * {
+    box-sizing: border-box;
+    font-family: Helvetica, "Apple SD Gothic Neo", Arial, "Malgun Gothic", sans-serif;
+    color: #333;
+}
+html {
+    font-size: 13px;
+}
+body {
+    margin: 0;
+    padding-top: 96px;
+}
+a {
+    text-decoration: none;
+} */
+.header_kms {
+    border-top: 7px solid #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+}
+header > section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+}
+header .logo_kms {
+    display: flex;
+    align-items: center;
+}
+header .logo_kms img {
+    display: block;
+    margin: 0 auto;
+}
+/* header button {
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+} */
+header a{
+    font-size: 20px;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+header button:last-of-type {
+    margin-left: 5px;
+}
+header button i {
+    font-size: 1.7rem;
+    vertical-align: middle;
+}
+.contantbox_kms{
+    margin: 0 auto;
+    padding: 100px;
+    align-content: center;
+}

@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!--아이콘 링크-->
+    <!-- swiper 링크 S-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper 링크 E-->
+
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Chanel</title>
     <link type="text/css" href="css/jms.css" rel="stylesheet">
     <link type="text/css" href="css/kmh.css" rel="stylesheet">
     <link type="text/css" href="css/moon.css" rel="stylesheet">
@@ -12,64 +20,269 @@
     <link type="text/css" href="css/sky.css" rel="stylesheet">
     <!-- style.css는 절대 건들지 마세요-->
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
     <!--민호 S-->
-    <header>
-        
+    <header class="header_kms">
+        <section>
+            <!--테스트2-->
+            <div class="headerLeft_kms">
+                <a href="#" class="xi-bars">
+                    <!-- <i class="xi-bars"></i> -->
+                    <!-- 더보기 -->
+                </a>
+                <a href="#">
+                    <i class="xi-search"></i>
+                    <!-- 검색 -->
+                </a>
+            </div>
+            <!--로고 사진-->
+            <a href="index.html" class="logo_kms">
+                <img src="image/logo.png" alt="로고 사진">
+            </a>
+            <div class="headerRight_kms">
+                <a href="wishlist.html" class="xi-star-o">
+                </a>
+                <a href="#" class="xi-cart-o">
+                </a>
+            </div>
+        </section>
+
     </header>
     <!--민호 E-->
 
     <!--정모 S-->
     <div class="top_view">
-        
+
     </div>
     <!--정모 E-->
-    
+
     <!--민상S-->
-    <div class="best_seller">    
-        
+    <div class="best_seller">
+        <h2>베스트셀러</h2>
+
+        <div class="center_layout">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <div class="Area">
+
+                            <div class="best_Product_1">
+
+                                <a href="">
+                                    <i class="xi-star-o"></i>
+                                    <div class="Product_img1">
+
+                                    </div>
+                                    <h4>블루 드 샤넬</h4>
+                                    <h5>빠르펭</h5>
+                                    <h4>205,000원</h4>
+                                    <span> <strong>장바구니에 추가하기</strong></span>
+                                </a>
+                            </div>
+
+                            <div class="best_Product_2">
+                                <a href="">
+                                    <i class="xi-star-o"></i>
+                                    <div class="Product_img2">
+
+                                    </div>
+                                    <h4>샹스 오 땅드르</h4>
+                                    <h5>오 드 빠르펭</h5>
+                                    <h4>242,000원</h4>
+                                    <span> <strong>장바구니에 추가하기</strong></span>
+
+                                </a>
+                            </div>
+
+                            <div class="best_Product_3">
+                                <a href="">
+                                    <i class="xi-star-o"></i>
+                                    <div class="Product_img3">
+
+                                    </div>
+                                    <h4>파리-파리</h4>
+                                    <h5>레조드 샤넬</h5>
+                                    <h4>203,000원</h4>
+                                    <span> <strong>장바구니에 추가하기</strong></span>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="Area">
+
+                            <div class="best_Product_1">
+                                <a href="">
+                                    <i class="xi-star-o"></i>
+                                    <div class="Product_img4">
+
+                                    </div>
+                                    <h4>N°5</h4>
+                                    <h5>오 드 빠르펭</h5>
+                                    <h4>242,000원</h4>
+                                    <span> <strong>장바구니에 추가하기</strong></span>
+                                </a>
+                            </div>
+
+                            <div class="best_Product_2">
+                                <a href="">
+                                    <i class="xi-star-o"></i>
+                                    <div class="Product_img5">
+
+                                    </div>
+                                    <h4>알뤼르 옴므 스포츠</h4>
+                                    <h5>오 드 뚜왈렛</h5>
+                                    <h4>154,000원</h4>
+                                    <span> <strong>장바구니에 추가하기</strong></span>
+
+                                </a>
+                            </div>
+
+                            <div class="best_Product_3">
+                                <a href="">
+                                    <i class="xi-star-o"></i>
+                                    <div class="Product_img6">
+
+                                    </div>
+                                    <h4>가브리엘 샤넬</h4>
+                                    <h5>에센스 오 드 빠르펭</h5>
+                                    <h4>242,000원</h4>
+                                    <span> <strong>장바구니에 추가하기</strong></span>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <!-- Swiper JS -->
+
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+
+
+
+            <!--
+           테스트
+            <div class="Area">
+
+                <div class="best_Product_1">
+                    <a href="">
+                        <div class="Product_img1">
+
+                        </div>
+                        <h4>블루 드 샤넬</h4>
+                        <h5>빠르펭</h5>
+                        <h4>205,000원</h4>
+                        <span> <strong>장바구니에 추가하기</strong></span>
+                    </a>
+                </div>
+
+                <div class="best_Product_2">
+                    <a href="">
+                        <div class="Product_img2">
+
+                        </div>
+                        <h4>샹스 오 땅드르</h4>
+                        <h5>오 드 빠르펭</h5>
+                        <h4>242,000원</h4>
+                        <span> <strong>장바구니에 추가하기</strong></span>
+
+                    </a>
+                </div>
+
+                <div class="best_Product_3">
+                    <a href="">
+                        <div class="Product_img3">
+
+                        </div>
+                        <h4>파리-파리</h4>
+                        <h5>레조드 샤넬</h5>
+                        <h4>203,000원</h4>
+                        <span> <strong>장바구니에 추가하기</strong></span>
+
+                    </a>
+                </div>
+            </div>
+-->
+        </div>
     </div>
     <!--민상 E-->
-    
+
     <!--민서 S-->
     <div class="Perfume_List">
         <div>
             test
         </div>
+
+
     </div>
     <!--민서 E-->
-    
+
     <!--민호 S-->
     <div class="Kategorie_List">
-        
+
     </div>
-    <!--민호 E-->  
+    <!--민호 E-->
 
     <!--하늘 S-->
     <div class="Beautifu_woman">
-        
-        
+
+
     </div>
-    <!--하늘 E-->      
+    <!--하늘 E-->
 
     <!--문수 S-->
     <div class="session_Product">
-        
+
+        <div>
+            연습연습연습
+        </div>
+
+
+
     </div>
-    
+
     <div class="Web_page_info">
-        
-        
+
+        <div>
+            테스트테스트테스트
+        </div>
     </div>   
+
+
+
+    </div>
+
     <!--문수 E-->
-    
-    <!--민재 S-->    
+
+    <!--민재 S-->
     <footer>
-        
+
     </footer>
     <!--민재 E-->
-    
+
 </body>
+
 </html>
