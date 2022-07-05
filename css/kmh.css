@@ -51,21 +51,42 @@ header a{
     font-size: 1.3rem;
     vertical-align: middle;
 }
+
 header button:last-of-type {
     margin-left: 5px;
 }
+
 header button i {
     font-size: 1.7rem;
     vertical-align: middle;
 }
+
 .contantbox_kmh{
     margin: 0 auto;
     padding: 100px;
     align-content: center;
 }
+
 .contantbox_kmh h1{
     text-align: center;
 }
+
 .kategorie_kmh{
+    margin-bottom: 36px;
+}
+
+.kategorie_h2_kmh{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Kategorie_List{
     display: flex;
+    flex-direction: column; /** 세로 정렬 */
+}
+.Box1_kmh{
+    display: flex;
+}
+.Box1_kmh h4{
+    text-align: center;
 }
