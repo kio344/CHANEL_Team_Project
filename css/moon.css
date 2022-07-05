@@ -40,19 +40,27 @@
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
-.session_Product_moon .surface_moon, .session_Product_moon .edition_moon {
+.session_Product_moon .surface_moon {
   display: flex;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   width: 50%;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+}
+.session_Product_moon .edition_moon {
+  display: flex;
+  flex: 1 1 auto;
+  width: 50%;
+  justify-content: left;
+  align-items: center;
+
 }
 .session_Product_moon .sf_image_moon, .session_Product_moon .ed_image_moon {
   display: block;
   height: auto;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 .session_Product_moon .sf_mainText_moon, .session_Product_moon .ed_mainText_moon {
   display: block;
@@ -64,6 +72,7 @@
   text-align: center;
   color: inherit;
   text-decoration : underline #1d1d1d;
+  margin-top: 10px;
 }
 .session_Product_moon .sf_mainText_moon h2, .session_Product_moon .ed_mainText_moon h2 {
   color: #1d1d1d;
