@@ -1,15 +1,1 @@
-* {
-    box-sizing: border-box;
-    font-family: Helvetica, "Apple SD Gothic Neo", Arial, "Malgun Gothic", sans-serif;
-    color: #333;
-}
-html {
-    font-size: 13px;
-}
-body {
-    margin: 0;
-    padding-top: 96px;
-}
-a {
-    text-decoration: none;
-}
+*{ margin: 0; padding: 0; }
