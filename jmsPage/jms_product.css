@@ -1,0 +1,95 @@
+
+html{
+    height: 1000px;
+    
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    border-top: 9px solid black;
+    border-bottom: 1px solid #b9b9b9;
+    height: 5.5%;
+    
+}
+
+header div a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+    
+}
+
+.logo {
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+        
+}
+
+.header_center {
+    
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+    
+
+}
+main div{
+    
+    display: flex;
+    
+    
+ 
+}
+main .Product_img{
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    width: 500px;
+    
+}
+main .Product_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+main .Product_dtail{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+
+    
+}
+main .Product_dtail span{
+    margin: 20px;
+    
+}
+
