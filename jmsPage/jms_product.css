@@ -49,8 +49,11 @@ header div a{
 .header_center {
     
 }
+.spacer{
+    height: 300px;
+}
 main{
-    margin-top: 100px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,15 +65,13 @@ main{
 main div{
     
     display: flex;
-    
+    flex: 1 1 auto;
     
  
 }
 main .Product_img{
     display: flex;
-    border: 3px solid black;
     justify-content: center;
-    width: 500px;
     
 }
 main .Product_img img{
@@ -80,16 +81,31 @@ main .Product_img img{
 
 
 main .Product_dtail{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     width: 500px;
     height: 100%;
-
+    line-height: 5px;
     
 }
+main .Product_dtail .Product_name{
+    border-bottom: 5px solid black;
+    line-height: 3px;
+    margin-bottom: 20px;
+}
 main .Product_dtail span{
-    margin: 20px;
+    margin-bottom: 30px;
+    
+}
+.add_button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 30px;
     
 }
 
