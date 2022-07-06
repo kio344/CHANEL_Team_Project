@@ -3,17 +3,21 @@
     font-family: Helvetica, "Apple SD Gothic Neo", Arial, "Malgun Gothic", sans-serif;
     color: #333;
 }
+
 html {
     font-size: 13px;
 }
+
 body {
     margin: 0;
     padding-top: 96px;
 }
+
 a {
     text-decoration: none;
 } */
-.header_kms {
+
+.header_kmh {
     border-top: 7px solid #000000;
     position: fixed;
     top: 0;
@@ -29,11 +33,11 @@ header > section {
     padding: 10px;
     border-bottom: 1px solid #ececec;
 }
-header .logo_kms {
+header .logo_kmh {
     display: flex;
     align-items: center;
 }
-header .logo_kms img {
+header .logo_kmh img {
     display: block;
     margin: 0 auto;
 }
@@ -51,15 +55,82 @@ header a{
     font-size: 1.3rem;
     vertical-align: middle;
 }
+
 header button:last-of-type {
     margin-left: 5px;
 }
+
 header button i {
     font-size: 1.7rem;
     vertical-align: middle;
 }
-.contantbox_kms{
+
+.contantbox_kmh{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
     margin: 0 auto;
     padding: 100px;
     align-content: center;
+}
+
+.contantbox_kmh h1{
+    text-align: center;
+}
+
+.kategorie_kmh{
+    margin-bottom: 36px;
+}
+
+.kategorie_h2_kmh{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.Kategorie_List{
+    display: flex;
+    flex-direction: column; /** 세로 정렬 */
+    width: 95%;
+    height: auto;
+}
+.Box1_kmh{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Box1_kmh h4{
+    text-align: center;
+}
+.Box1_kmh img{
+    width: 100%;
+    height: auto;
+}
+.Box1_kmh .kategorie1_img {
+    margin: 20px;
+}
+.img1_kmh img{
+    max-width: 200px;
+}
+.span1_kmh{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.contantbox_kmh h5{
+    font-size: .875rem;
+}
+.p1_center_kmh{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;  /*공간의 위치*/
+}
+.p1_kmh{
+    width: 80%;
+    line-height: 25px;
+}
+.p1_kmh p{
+    color: gray;
 }
