@@ -1,10 +1,22 @@
-.Perfume_List{
+.Perfume_List {
     justify-content: center;
     align-items: center;
-    margin: 0.8022%;
+    margin: 0.9022%;
     max-width: 89.3333%;
+    cursor: pointer;
 }
-.blue{
+/* 자세히 보기 */
+.p_bms {
+    text-decoration : underline #1d1d1d;
+    /* line-height: 1.125rem; */
+}
+
+.p_bms:hover{
+    text-decoration : underline white;
+}
+
+/* 블루 드 샤넬 s */
+.blue_bms {
     display: flex;
     flex: 1 0;
     height: 100%;
@@ -16,44 +28,176 @@
     top: 0;
     width: 100%;
     gap: 18px;
-
+    margin: 0 8.022%;
+    max-width: 89.33333333%;
+    margin-right: 20px;
 }
-.blue-text{
-    margin-right: 8.3333333%;
+
+.blue-text_bms {
+    margin-right: 10px;
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    width: 41.6666666666%;
+    width: 40.6666666666%;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-}
-.chanel-text{
-
 }
 
-.blue-img{
-    display: block;
-
+.blue-img_bms .blue-text_bms {
+    padding-left: .98958333vw;
+    padding-right: .98958333vw;
 }
 
-@media (min-width: 601px){
-    .blue{
-        margin: 0 8.022%;
-        max-width: 89.33333333%;
-        margin-right: 20px;
+.blue-img_bms {
+    margin-right: 50px;
+}
+
+/* 블루 드 샤넬 e */
+
+/* 코코 마드모아젤 s */
+.coco_bms {
+    display: flex;
+    flex: 1 0;
+    height: 100%;
+    position: relative;
+    /* gap: initial; */
+    align-items: initial;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 0;
+    width: 100%;
+    gap: 18px;
+    margin: 0 8.022%;
+    max-width: 89.33333333%;
+    margin-right: 20px;
+}
+
+.coco-text_bms {
+    margin-left: 10px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 40.6666666666%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.coco-img_bms .coco-text_bms {
+    padding-left: .98958333vw;
+    padding-right: .98958333vw;
+}
+.coco-img_bms {
+    margin-left: 50px;
+}
+/* 코코 마드모아젤 e */
+
+/* 알뤼르 옴므 스포츠 s */
+.homme_bms {
+    display: flex;
+    flex: 1 0;
+    height: 100%;
+    position: relative;
+    /* gap: initial; */
+    align-items: initial;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    top: 0;
+    width: 100%;
+    gap: 18px;
+    margin: 0 8.022%;
+    max-width: 89.33333333%;
+    margin-right: 20px;
+}
+.homme-text_bms {
+    margin-right: 10px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 40.6666666666%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homme-img_bms .homme-text_bms {
+    padding-left: .98958333vw;
+    padding-right: .98958333vw;
+}
+.homme-img_bms {
+    margin-right: 50px;
+}
+/* 알뤼르 옴므 스포츠 e */
+
+/* 공백 */
+.block_bms{
+    display: flex;
+    flex: 1 1;
+    position: relative;
+    width: 100%;
+    height: 5vw;
+}
+
+
+
+@media (min-width: 601px) {
+    /* 이미지 */
+    .blue-img_bms>img {
+        width: 230px;
+        height: 240px;
     }
-    /* .blue-img{
-        width: 100px;
-        height: 120px;
-        background-image: url(../image/blue.png);
-        background-size: cover;
-        background-position: center;
-    } */
-    .blue-img .blue-text {
-        padding-left: .98958333vw;
-        padding-right: .98958333vw;
+
+    .coco-img_bms>img {
+        width: 230px;
+        height: 240px;
     }
-    
+
+    .homme-img_bms>img {
+        width: 230px;
+        height: 240px;
+    }
+
+    /* 텍스트 */
+    .blue-text_bms .coco-text_bms {
+        max-width: 384px;
+    }
+
+}
+
+@media (min-width: 801px) {
+    /* 이미지 */
+    .blue-img_bms>img {
+        width: 330px;
+        height: 340px;
+    }
+    .coco-img_bms>img {
+        width: 330px;
+        height: 340px;
+    }
+    .homme-img_bms>img {
+        width: 330px;
+        height: 340px;
+    }
+
+    .blue-text_bms .coco-text_bms{
+        max-width: 384px;
+    }
+
+}
+
+@media(min-width:1080px) {
+    /* 이미지 */
+    .blue-img_bms>img {
+        width: 430px;
+        height: 440px;
+    }
+    .coco-img_bms>img {
+        width: 430px;
+        height: 440px;
+    }
+    .homme-img_bms>img {
+        width: 430px;
+        height: 440px;
+    }
+
 }
