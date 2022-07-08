@@ -1,10 +1,12 @@
-.Perfume_List {
+/* .Perfume_List {
     justify-content: center;
     align-items: center;
     margin: 0.9022%;
     max-width: 89.3333%;
     cursor: pointer;
-}
+} */
+
+
 /* 자세히 보기 */
 .p_bms {
     text-decoration : underline #1d1d1d;
@@ -138,33 +140,113 @@
     height: 5vw;
 }
 
+@media (min-with: 500px){
+    .blue-text_bms > .blue500_bms{
+        margin-right: 50px;
+    }
+    .Perfume_List{
+        margin: 0;
+        max-width: 0;
+    } 
 
 
-@media (min-width: 601px) {
-    /* 이미지 */
+}
+
+@media (min-width: 550px){
+    .Perfume_List {
+        justify-content: center;
+        align-items: center;
+        margin: 0.9022%;
+        max-width: 89.3333%;
+        cursor: pointer;
+    }
+
     .blue-img_bms>img {
-        width: 230px;
-        height: 240px;
+        width: 170px;
+        height: 180px;
     }
 
     .coco-img_bms>img {
-        width: 230px;
-        height: 240px;
+        width: 170px;
+        height: 180px;
     }
 
     .homme-img_bms>img {
-        width: 230px;
-        height: 240px;
+        width: 170px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 604px) {
+    .Perfume_List {
+        justify-content: center;
+        align-items: center;
+        margin: 0.9022%;
+        max-width: 89.3333%;
+        cursor: pointer;
     }
 
-    /* 텍스트 */
+    /* 이미지 */
+    .blue-img_bms>img {
+        width: 200px;
+        height: 210px;
+    }
+
+    .coco-img_bms>img {
+        width: 200px;
+        height: 210px;
+    }
+
+    .homme-img_bms>img {
+        width: 200px;
+        height: 210px;
+    }
+
+    /* 텍스트
     .blue-text_bms .coco-text_bms {
+        max-width: 384px;
+    } */
+
+}
+
+
+@media (min-width: 774px) {
+    .Perfume_List {
+        justify-content: center;
+        align-items: center;
+        margin: 0.9022%;
+        max-width: 89.3333%;
+        cursor: pointer;
+    }
+
+    /* 이미지 */
+    .blue-img_bms>img {
+        width: 280px;
+        height: 290px;
+    }
+    .coco-img_bms>img {
+        width: 280px;
+        height: 290px;
+    }
+    .homme-img_bms>img {
+        width: 280px;
+        height: 290px;
+    }
+
+    .blue-text_bms .coco-text_bms{
         max-width: 384px;
     }
 
 }
+@media (min-width: 879px) {
+    .Perfume_List {
+        justify-content: center;
+        align-items: center;
+        margin: 0.9022%;
+        max-width: 89.3333%;
+        cursor: pointer;
+    }
 
-@media (min-width: 801px) {
     /* 이미지 */
     .blue-img_bms>img {
         width: 330px;
@@ -184,8 +266,46 @@
     }
 
 }
+@media (min-width: 903px) {
+    .Perfume_List {
+        justify-content: center;
+        align-items: center;
+        margin: 0.9022%;
+        max-width: 89.3333%;
+        cursor: pointer;
+    }
+
+
+    /* 이미지 */
+    .blue-img_bms>img {
+        width: 330px;
+        height: 340px;
+    }
+    .coco-img_bms>img {
+        width: 330px;
+        height: 340px;
+    }
+    .homme-img_bms>img {
+        width: 330px;
+        height: 340px;
+    }
+
+    .blue-text_bms .coco-text_bms{
+        max-width: 384px;
+    }
+
+
+}
 
 @media(min-width:1080px) {
+    .Perfume_List {
+        justify-content: center;
+        align-items: center;
+        margin: 0.9022%;
+        max-width: 89.3333%;
+        cursor: pointer;
+    }
+
     /* 이미지 */
     .blue-img_bms>img {
         width: 430px;
