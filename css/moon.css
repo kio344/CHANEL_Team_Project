@@ -129,3 +129,138 @@
   color: #767676;
   text-decoration : underline #333;
 }
+
+
+/* 디테일 페이지 구현 S*/
+.main_image_moon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main_image_moon .de_image_moon {
+  position: relative;
+}
+.main_image_moon .de_image_moon img {
+  width: 100%;
+}
+.main_image_moon > .main_text_moon {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  align-items: center;
+  margin-right: 9%;
+  width: 41%;
+}
+.main_image_moon .main_text_moon .main_1_moon, .main_image_moon .main_text_moon .main_2_moon {
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sub_image_moon {
+  display: flex;
+  margin: 100px;
+}
+.sub_image_moon .sub_wrap_moon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.sub_image_moon .sub_wrap_moon .gift_moon, .sub_image_moon .sub_wrap_moon .basic_moon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 2);
+}
+.sub_image_moon .sub_wrap_moon .gift_moon p, .sub_image_moon .sub_wrap_moon .basic_moon p {
+  text-align: center;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-size: 15px;
+  width: 75%;
+}
+.sub_image_moon .sub_wrap_moon .gift_moon h3, .sub_image_moon .sub_wrap_moon .basic_moon h3 {
+  margin: 10px;
+  font-size: 30px;
+  width: 100%;
+}
+.sub_image_moon .sub_wrap_moon .gift_moon img, .sub_image_moon .sub_wrap_moon .basic_moon img {
+  width: 100%;
+}
+.subtext_moon {
+  text-align: center;
+  font-size: 15px;
+  margin: 50px;
+}
+.free_moon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 300px;
+  max-width: calc(100% - 100px);
+}
+.free_moon img {
+  width: 100%;
+}
+.free_moon .free_text_moon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-right: 300px;
+  max-width: 50%;
+}
+.free_moon .free_text_moon p {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100%;
+  font-size: 15px;
+}
+.free_moon .free_text_moon span {
+  width: 100%;
+  font-size: 35px;
+}
+
+.right_moon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: calc(100% - 100px);
+}
+.right_moon img {
+  width: 100%;
+}
+.right_moon .right_text_moon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 50%;
+}
+.right_moon .right_text_moon p {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  max-width: 65%;
+}
+.right_moon .right_text_moon span {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  max-width: 65%;
+}
+/* 디테일 페이지 구현 E */
