@@ -1,10 +1,10 @@
-/* .Perfume_List {
+.Perfume_List {
     justify-content: center;
     align-items: center;
     margin: 0.9022%;
     max-width: 89.3333%;
     cursor: pointer;
-} */
+}
 
 
 /* 자세히 보기 */
@@ -26,7 +26,7 @@
     /* gap: initial; */
     align-items: initial;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     top: 0;
     width: 100%;
     gap: 18px;
@@ -54,6 +54,8 @@
 .blue-img_bms {
     margin-right: 50px;
 }
+
+
 
 /* 블루 드 샤넬 e */
 
@@ -140,7 +142,28 @@
     height: 5vw;
 }
 
-@media (min-with: 500px){
+/* 반응형 */
+.blue-img_bms img { display: block; width: calc(100% - 70px); } 
+@media all and (max-width: 750px) {
+    /* 블루 드 샤넬 */
+	.blue_bms { flex-direction: column; }
+	.blue-img_bms img { width: 100%; }
+	.blue-text_bms { width: 100%; }
+	.blue-img_bms { margin-right: 0; }
+
+    /* 코코 마드모아젤 */
+    .coco_bms { flex-direction: column; }
+	.coco-img_bms img { width: 100%; }
+	.coco-text_bms { width: 100%; }
+	.coco-img_bms { margin-right: 0; }
+
+    /* 알뤼르 옴므 스포츠 */
+    .homme_bms { flex-direction: column; }
+	.homme-img_bms img { width: 100%; }
+	.homme-text_bms { width: 100%; }
+	.homme-img_bms { margin-right: 0; }
+}
+/* @media (min-with: 500px){
     .blue-text_bms > .blue500_bms{
         margin-right: 50px;
     }
@@ -159,21 +182,6 @@
         max-width: 89.3333%;
         cursor: pointer;
     }
-
-    .blue-img_bms>img {
-        width: 170px;
-        height: 180px;
-    }
-
-    .coco-img_bms>img {
-        width: 170px;
-        height: 180px;
-    }
-
-    .homme-img_bms>img {
-        width: 170px;
-        height: 180px;
-    }
 }
 
 @media (min-width: 604px) {
@@ -185,27 +193,6 @@
         cursor: pointer;
     }
 
-    /* 이미지 */
-    .blue-img_bms>img {
-        width: 200px;
-        height: 210px;
-    }
-
-    .coco-img_bms>img {
-        width: 200px;
-        height: 210px;
-    }
-
-    .homme-img_bms>img {
-        width: 200px;
-        height: 210px;
-    }
-
-    /* 텍스트
-    .blue-text_bms .coco-text_bms {
-        max-width: 384px;
-    } */
-
 }
 
 
@@ -216,20 +203,6 @@
         margin: 0.9022%;
         max-width: 89.3333%;
         cursor: pointer;
-    }
-
-    /* 이미지 */
-    .blue-img_bms>img {
-        width: 280px;
-        height: 290px;
-    }
-    .coco-img_bms>img {
-        width: 280px;
-        height: 290px;
-    }
-    .homme-img_bms>img {
-        width: 280px;
-        height: 290px;
     }
 
     .blue-text_bms .coco-text_bms{
@@ -246,20 +219,6 @@
         cursor: pointer;
     }
 
-    /* 이미지 */
-    .blue-img_bms>img {
-        width: 330px;
-        height: 340px;
-    }
-    .coco-img_bms>img {
-        width: 330px;
-        height: 340px;
-    }
-    .homme-img_bms>img {
-        width: 330px;
-        height: 340px;
-    }
-
     .blue-text_bms .coco-text_bms{
         max-width: 384px;
     }
@@ -272,21 +231,6 @@
         margin: 0.9022%;
         max-width: 89.3333%;
         cursor: pointer;
-    }
-
-
-    /* 이미지 */
-    .blue-img_bms>img {
-        width: 330px;
-        height: 340px;
-    }
-    .coco-img_bms>img {
-        width: 330px;
-        height: 340px;
-    }
-    .homme-img_bms>img {
-        width: 330px;
-        height: 340px;
     }
 
     .blue-text_bms .coco-text_bms{
@@ -303,20 +247,6 @@
         margin: 0.9022%;
         max-width: 89.3333%;
         cursor: pointer;
-    }
+    } */
 
-    /* 이미지 */
-    .blue-img_bms>img {
-        width: 430px;
-        height: 440px;
-    }
-    .coco-img_bms>img {
-        width: 430px;
-        height: 440px;
-    }
-    .homme-img_bms>img {
-        width: 430px;
-        height: 440px;
-    }
-
-}
+/* } */
