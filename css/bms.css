@@ -56,8 +56,9 @@
 }
 
 /* 반응형 */
+
 .blue-img_bms img { display: block; width: calc(100% - 70px); } 
-@media all and (max-width: 750px) {
+@media all and (max-width: 500px) {
 	.blue_bms { flex-direction: column; }
 	.blue-img_bms img { width: 100%; }
 	.blue-text_bms { width: 100%; }
@@ -104,7 +105,7 @@
 
 /* 반응형 */
 .coco-img_bms img { display: block; width: calc(100% - 70px); } 
-@media all and (max-width: 750px) {
+@media all and (max-width: 500px) {
     .coco_bms { flex-direction: column; }
 	.coco-img_bms img { width: 100%; }
 	.coco-text_bms { width: 100%; }
@@ -152,7 +153,7 @@
 /* 반응형 */
 .homme-img_bms img { display: block; width: calc(100% - 70px); } 
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 500px) {
     .homme_bms { flex-direction: column; }
     .homme-img_bms img { width: 100%; }
     .homme-text_bms { width: 100%; }
