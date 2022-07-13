@@ -55,7 +55,14 @@
     margin-right: 50px;
 }
 
-
+/* 반응형 */
+.blue-img_bms img { display: block; width: calc(100% - 70px); } 
+@media all and (max-width: 750px) {
+	.blue_bms { flex-direction: column; }
+	.blue-img_bms img { width: 100%; }
+	.blue-text_bms { width: 100%; }
+	.blue-img_bms { margin-right: 0; }
+}
 
 /* 블루 드 샤넬 e */
 
@@ -68,7 +75,7 @@
     /* gap: initial; */
     align-items: initial;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     top: 0;
     width: 100%;
     gap: 18px;
@@ -94,6 +101,15 @@
 .coco-img_bms {
     margin-left: 50px;
 }
+
+/* 반응형 */
+.coco-img_bms img { display: block; width: calc(100% - 70px); } 
+@media all and (max-width: 750px) {
+    .coco_bms { flex-direction: column; }
+	.coco-img_bms img { width: 100%; }
+	.coco-text_bms { width: 100%; }
+	.coco-img_bms { margin-right: 0; }
+}
 /* 코코 마드모아젤 e */
 
 /* 알뤼르 옴므 스포츠 s */
@@ -105,7 +121,7 @@
     /* gap: initial; */
     align-items: initial;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     top: 0;
     width: 100%;
     gap: 18px;
@@ -124,6 +140,7 @@
     text-align: center;
 }
 
+
 .homme-img_bms .homme-text_bms {
     padding-left: .98958333vw;
     padding-right: .98958333vw;
@@ -131,6 +148,17 @@
 .homme-img_bms {
     margin-right: 50px;
 }
+
+/* 반응형 */
+.homme-img_bms img { display: block; width: calc(100% - 70px); } 
+
+@media all and (max-width: 750px) {
+    .homme_bms { flex-direction: column; }
+    .homme-img_bms img { width: 100%; }
+    .homme-text_bms { width: 100%; }
+    .homme-img_bms { margin-right: 0; }
+}
+
 /* 알뤼르 옴므 스포츠 e */
 
 /* 공백 */
@@ -142,27 +170,6 @@
     height: 5vw;
 }
 
-/* 반응형 */
-.blue-img_bms img { display: block; width: calc(100% - 70px); } 
-@media all and (max-width: 750px) {
-    /* 블루 드 샤넬 */
-	.blue_bms { flex-direction: column; }
-	.blue-img_bms img { width: 100%; }
-	.blue-text_bms { width: 100%; }
-	.blue-img_bms { margin-right: 0; }
-
-    /* 코코 마드모아젤 */
-    .coco_bms { flex-direction: column; }
-	.coco-img_bms img { width: 100%; }
-	.coco-text_bms { width: 100%; }
-	.coco-img_bms { margin-right: 0; }
-
-    /* 알뤼르 옴므 스포츠 */
-    .homme_bms { flex-direction: column; }
-	.homme-img_bms img { width: 100%; }
-	.homme-text_bms { width: 100%; }
-	.homme-img_bms { margin-right: 0; }
-}
 /* @media (min-with: 500px){
     .blue-text_bms > .blue500_bms{
         margin-right: 50px;
