@@ -1,0 +1,335 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+html{
+    height: 1000px;
+    
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    border-top: 9px solid black;
+    border-bottom: 1px solid #b9b9b9;
+    height: 5.7%;
+    
+}
+
+header div a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+    color: black;
+    
+}
+
+.logo {
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.header_center {
+    
+}
+.spacer{
+    height: 250px;
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 100px;
+    
+
+}
+main div{
+    
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 600px;
+ 
+}
+main .Product_img{
+    display: flex;
+    justify-content: center;
+    
+}
+main .Product_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+main .Product_dtail{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    
+    
+}
+main .Product_dtail .Product_name{
+    border-bottom: 5px solid black;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+main .Product_dtail span{
+    margin-bottom: 30px;
+    
+}
+.add_button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    
+}
+/* S 제품 설명제품 설명제품 설명제품 설명제품 설명제품 설명제품 설명 S*/
+
+.Product_Info{
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+.Product_Info ul li:hover{
+    border-bottom: 2px solid black;
+    
+    
+}
+
+.Product_Info ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+    width: 100%;
+    
+}
+.Product_Info ul li{
+    display: flex;
+    float: left;
+    font-size: 17px;
+    
+    flex: 1 1 auto;
+    justify-content: center;
+    
+}
+
+.Product_Info .Info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: left;
+    width: 50%;
+    
+}
+
+.Product_Info .Info span{
+    color: #383838;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+/* E 제품 설명제품 설명제품 설명제품 설명제품 설명제품 설명제품 설명 E*/
+
+
+/*S 제품 리뷰제품 리뷰제품 리뷰제품 리뷰제품 리뷰제품 리뷰제품 리뷰 S*/
+.review{
+    margin: 50px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+}
+
+.review h2{
+    margin: 70px;
+}
+.review span a{
+    color: #000000;
+    text-decoration: underline;
+
+}
+.review span{
+    color: #5c5c5c;
+}
+
+
+
+
+/*E 제품 리뷰제품 리뷰제품 리뷰제품 리뷰제품 리뷰제품 리뷰제품 리뷰 E*/
+
+
+/*S 상품 필수정보상품 필수정보상품 필수정보상품 필수정보상품 필수정보상품 필수정보 S*/
+.essential_Info{
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+.essential_Info span{
+    color: #5a5a5a;
+}
+
+
+
+
+
+
+/*E 상품 필수정보상품 필수정보상품 필수정보상품 필수정보상품 필수정보상품 필수정보 E*/
+
+
+/*S 특별한 선물포장특별한 선물포장특별한 선물포장특별한 선물포장특별한 선물포장S*/
+.spacial{
+    display: none;
+    width: 90%
+    
+}
+
+.spacial div{
+    display: flex;
+    
+    width: 60%;
+    height: auto;
+    flex-direction: column;
+    margin: 30px 20px
+    
+    
+}
+.spacial .detail_img{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 50%;
+   
+}
+.spacial .detail{
+    display: flex;
+    flex: 1 1 auto;
+    line-height: 35px;
+   justify-content: center;
+    width: 50%;
+}
+.spacial .detail span{
+    font-size: 14px;
+}
+
+
+
+
+/*E 특별한 선물포장특별한 선물포장특별한 선물포장특별한 선물포장특별한 선물포장E*/
+
+/*S 배송과 반품배송과 반품배송과 반품배송과 반품배송과 반품배송과 반품배송과 반품S */
+
+.shipping{
+    display: none;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 70%;
+    
+}
+.shipping span{
+    line-height: 29px;
+    font-size: 16px;
+    color: #464646;
+}
+
+
+
+
+
+
+/*E 배송과 반품배송과 반품배송과 반품배송과 반품배송과 반품배송과 반품배송과 반품E */
+
+
+
+
+
+.serise{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+
+.serise .type{
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.serise .type div{
+    
+    
+   
+    margin: 10px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    line-height: 30px;
+
+}
+
+.serise .type div img{
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.serise .type div span{
+    
+    
+   
+    margin: 10px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    line-height: 18px;
+    color: #6d6d6d;
+
+}
