@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&family=Montserrat:wght@800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+
+.footer_jmj {
+    background-color: black;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+.footer_jmj .subfooter_jmj {
+    width: 100%;
+    height: 400px;
+    
+        
+}
+
+.logo_jmj {
+   
+    background-color: black;
+    height: 28px;
+    width: auto;
+    text-align: center;
+    
+}
+
+
+.text {
+    height: auto;
+    width: 80%;
+    display: flex;
+    background-color: black;
+    
+}
+
+.text2 {
+    width: auto;
+    display: inline-block;
+   
+   
+}
+
+.text3 {
+    width: auto;
+    display:inline-block;
+    
+}
+
+.text4 {
+    width: auto;
+    display: inline-block;
+    flex-direction: column;
+    
+}
+
+.text div {
+    
+    flex: 0 1 25%;
+}
+
+
+
+.text li {
+    margin: 0 0 18px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.text li > a{
+   
+    color: #9b9b9b;
+}
+
+.text2 li {
+    margin: 0 0 18px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.text2 li > a{
+    color: #9b9b9b;
+}
+
+.godaebi {
+    
+    width: 81.8%; 
+    padding: 18px 0px 18px 13px;
+}
+
+.godaebi {
+    font-size: 13px;
+    color: aliceblue;
+    border: 1px #6e6e6e;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    text-align: left;
+}
+
+
+ :root[color-theme="light"] {
+    --background: #fff;
+    --boxColor: #000;
+    ;
+  }
+  
+  :root[color-theme="dark"] {
+    --background: #000;
+    --boxColor: #fff;
+   
+  
+  }
+  
+  html {
+    background: var(--background);
+    
+  }
+  
+  .footer_jmj {
+   
+    background: black;
+    
+
+    
+  }
+
+
+
+  .bottomfooter {
+
+    width: 80%;
+    padding: 26px 0 26px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    
+}
+    .bottomfooter li{
+        color: #6e6e6e;
+        font-size: 10px;
+    }
+    .bottomfooter li >a{
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .icon li{
+        font-size: 20px;
+       
+    }
+
+.alswo {
+    font-size: 100px;
+    
+}
+
+
