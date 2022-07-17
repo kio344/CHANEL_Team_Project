@@ -1,8 +1,8 @@
 .Perfume_List {
     justify-content: center;
     align-items: center;
-    margin: 0.9022%;
-    max-width: 89.3333%;
+    margin: 0 auto;
+    max-width: 1200px;
     cursor: pointer;
 }
 
@@ -10,7 +10,6 @@
 /* 자세히 보기 */
 .p_bms {
     text-decoration : underline #1d1d1d;
-    /* line-height: 1.125rem; */
 }
 
 .p_bms:hover{
@@ -23,16 +22,15 @@
     flex: 1 0;
     height: 100%;
     position: relative;
-    /* gap: initial; */
     align-items: initial;
     flex-direction: row-reverse;
-    /* flex-wrap: wrap; */
     top: 0;
     width: 100%;
     gap: 18px;
     margin: 0 8.022%;
     max-width: 89.33333333%;
     margin-right: 20px;
+    justify-content: space-around;
 }
 
 .blue-text_bms {
@@ -57,14 +55,17 @@
 
 /* 반응형 */
 
-.blue-img_bms img { display: block; width: calc(100% - 70px); } 
-@media all and (max-width: 500px) {
+.blue-img_bms img { display: block; width: calc(100% - 20px); } 
+@media all and (max-width: 650px) {
 	.blue_bms { flex-direction: column; }
 	.blue-img_bms img { width: 100%; }
 	.blue-text_bms { width: 100%; }
 	.blue-img_bms { margin-right: 0; }
 }
 
+@media (min-width: 1500px){
+    .blue-img_bms img{min-width: 500px;}
+}
 /* 블루 드 샤넬 e */
 
 /* 코코 마드모아젤 s */
@@ -73,16 +74,15 @@
     flex: 1 0;
     height: 100%;
     position: relative;
-    /* gap: initial; */
     align-items: initial;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     top: 0;
     width: 100%;
     gap: 18px;
     margin: 0 8.022%;
     max-width: 89.33333333%;
     margin-right: 20px;
+    justify-content: space-around;
 }
 
 .coco-text_bms {
@@ -101,16 +101,21 @@
 }
 .coco-img_bms {
     margin-left: 50px;
+    width: 100%;
+    
 }
 
 /* 반응형 */
-.coco-img_bms img { display: block; width: calc(100% - 70px); } 
-@media all and (max-width: 500px) {
+.coco-img_bms img { display: block; width: calc(100% - 20px); } 
+@media all and (max-width: 650px) {
     .coco_bms { flex-direction: column; }
-	.coco-img_bms img { width: 100%; }
+	.coco-img_bms img { width: 100%;}
 	.coco-text_bms { width: 100%; }
-	.coco-img_bms { margin-right: 0; }
+	.coco-img_bms { margin: 0; }
 }
+/* @media (min-width: 1500px){
+    .coco-img_bms img{min-width: 500px;}
+} */
 /* 코코 마드모아젤 e */
 
 /* 알뤼르 옴므 스포츠 s */
@@ -119,16 +124,15 @@
     flex: 1 0;
     height: 100%;
     position: relative;
-    /* gap: initial; */
     align-items: initial;
     flex-direction: row-reverse;
-    /* flex-wrap: wrap; */
     top: 0;
     width: 100%;
     gap: 18px;
     margin: 0 8.022%;
     max-width: 89.33333333%;
     margin-right: 20px;
+    justify-content: space-around;
 }
 .homme-text_bms {
     margin-right: 10px;
@@ -148,17 +152,19 @@
 }
 .homme-img_bms {
     margin-right: 50px;
+    width: 100%;
 }
 
 /* 반응형 */
-.homme-img_bms img { display: block; width: calc(100% - 70px); } 
+.homme-img_bms img { display: block; width: calc(100% - 20px); } 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 650px) {
     .homme_bms { flex-direction: column; }
     .homme-img_bms img { width: 100%; }
     .homme-text_bms { width: 100%; }
     .homme-img_bms { margin-right: 0; }
 }
+
 
 /* 알뤼르 옴므 스포츠 e */
 
@@ -171,90 +177,4 @@
     height: 5vw;
 }
 
-/* @media (min-with: 500px){
-    .blue-text_bms > .blue500_bms{
-        margin-right: 50px;
-    }
-    .Perfume_List{
-        margin: 0;
-        max-width: 0;
-    } 
 
-}
-
-@media (min-width: 550px){
-    .Perfume_List {
-        justify-content: center;
-        align-items: center;
-        margin: 0.9022%;
-        max-width: 89.3333%;
-        cursor: pointer;
-    }
-}
-
-@media (min-width: 604px) {
-    .Perfume_List {
-        justify-content: center;
-        align-items: center;
-        margin: 0.9022%;
-        max-width: 89.3333%;
-        cursor: pointer;
-    }
-
-}
-
-
-@media (min-width: 774px) {
-    .Perfume_List {
-        justify-content: center;
-        align-items: center;
-        margin: 0.9022%;
-        max-width: 89.3333%;
-        cursor: pointer;
-    }
-
-    .blue-text_bms .coco-text_bms{
-        max-width: 384px;
-    }
-
-}
-@media (min-width: 879px) {
-    .Perfume_List {
-        justify-content: center;
-        align-items: center;
-        margin: 0.9022%;
-        max-width: 89.3333%;
-        cursor: pointer;
-    }
-
-    .blue-text_bms .coco-text_bms{
-        max-width: 384px;
-    }
-
-}
-@media (min-width: 903px) {
-    .Perfume_List {
-        justify-content: center;
-        align-items: center;
-        margin: 0.9022%;
-        max-width: 89.3333%;
-        cursor: pointer;
-    }
-
-    .blue-text_bms .coco-text_bms{
-        max-width: 384px;
-    }
-
-
-}
-
-@media(min-width:1080px) {
-    .Perfume_List {
-        justify-content: center;
-        align-items: center;
-        margin: 0.9022%;
-        max-width: 89.3333%;
-        cursor: pointer;
-    } */
-
-/* } */

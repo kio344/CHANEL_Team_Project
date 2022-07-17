@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    min-height: 1000px;
+}
+
+/* header s*/
+.header_bms {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    min-height: 3.1875rem;
+    justify-content: space-between;
+}
+
+.headerLeft_bms .headerRight_bms {
+    color: black;
+}
+
+.fa-thin {
+    margin: 10px;
+}
+
+/* header e*/
+
+/* 자세히 보기 */
+.p_bms {
+    text-decoration: underline aliceblue;
+    padding-bottom: 60px;
+}
+
+.p_bms:hover {
+    text-decoration: underline rgb(12, 12, 58);
+}
+
+/* blue 제품 s */
+.bluePage_bms {
+    background-color: rgb(12, 12, 58);
+}
+
+.blueImage_bms {
+    overflow: hidden;
+    display: flex;
+    flex: 1 0;
+    height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.blueimg_bms{
+    padding-top: 50px;
+    height: 500px;
+}
+
+.bluePage-text_bms {
+    color: aliceblue;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    padding-bottom: 300px;
+}
+
+.bluePage-text_bms>p {
+    padding-top: 30px;
+}
+
+/* blue 제품 e */
+
+/* coco 제품 s */
+.cocoPage_bms {
+    padding-top: 50px;
+    display: flex;
+}
+
+.container_bms {
+    width: 1265px;
+    height: 400px;
+    position: relative;
+}
+
+.bg-image_bms {
+    background-image: url(bmsimage/cocoPage.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-text_bms {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_bms {
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+/* coco 제품 e */
+
+/* homme 제품 s */
+.homme_bms {
+    background-color: rgb(163, 51, 33);
+    min-height: 1000px;
+}
+
+.hommePage_bms {
+    display: flex;
+    flex: 1 0;
+    height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.hommeImage_bms {
+    padding-top: 50px;
+    height: 500px;
+}
+
+/* homme 제품 e */
