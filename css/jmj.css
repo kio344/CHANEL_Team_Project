@@ -108,7 +108,7 @@
  :root[color-theme="light"] {
     --background: #fff;
     --boxColor: #000;
-    ;
+    
   }
   
   :root[color-theme="dark"] {
